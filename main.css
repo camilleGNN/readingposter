@@ -1,0 +1,80 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+#page {
+	width: 11in;
+	height: 17in;
+	border: 1px solid #000;
+	transform-origin: 50% 0%;	
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+
+}
+
+
+@media print {
+
+	#page {
+		border: none!important; /*overide the the border around the poster when you print*/
+		transform: scale(1)!important; /*override the page scaling*/
+		
+
+	}
+
+}
+
+
+/*** DELETE AND EDIT CONTENT HERE ***/ 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+
+	h1, h2, h3 {
+		font-weight: normal;
+		max-width: 90%;
+
+		}
+
+	h1 {
+		font-size: 80px;
+		font-family: 'bodoni';
+		padding: 30px;
+	}
+
+	h2 {
+		font-size: 50px;
+		padding: 30px;
+		transform: rotate(90deg);
+		margin-left: 400px;
+		margin-top: -1400px;
+	}
+	h3 {
+
+		font-size: 50px;
+		
+		max-width: 100%;
+		text-align: right;
+		position: absolute;
+		
+		margin-top: 50px;
+		bottom: 0;
+		right: 20px;
+		}
+
+
+
+		
+
+
+	
+
+
+
+
+
